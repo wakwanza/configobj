@@ -1952,7 +1952,7 @@ class ConfigObj(Section):
             val = repr(this_entry)
         return '%s%s%s%s%s' % (indent_string,
                                self._decode_element(self._quote(entry, multiline=False)),
-                               self._a_to_u(' = '),
+                               self._a_to_u('='),
                                val,
                                self._decode_element(comment))
 
